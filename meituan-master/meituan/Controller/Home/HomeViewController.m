@@ -112,8 +112,8 @@
     
     UILabel *placeHolderLabel = [[UILabel alloc] initWithFrame:CGRectMake(25, 0, 150, 25)];
     placeHolderLabel.font = [UIFont boldSystemFontOfSize:13];
-//    placeHolderLabel.text = @"请输入商家、品类、商圈";
-    placeHolderLabel.text = @"鲁总专享版";
+    placeHolderLabel.text = @"请输入商家、品类、商圈";
+    //placeHolderLabel.text = @"鲁总专享版";
     placeHolderLabel.textColor = [UIColor whiteColor];
     [searchView addSubview:placeHolderLabel];    
 }
